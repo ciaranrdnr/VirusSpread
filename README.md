@@ -1,13 +1,9 @@
 # Virus Spread
 ### Simulate The Spread of Virus/Disease (Random Walk)
-Setiap individu direpresentasikan sebagau partikel yang bergerak bebas secara acak. 
+Setiap individu direpresentasikan sebagai partikel yang bergerak bebas secara acak. 
 
-Proses simulasi diawali dengan mendefinisikan sejumlah individu dari suatu komunitas yang sudah terinfeksi. 
+Simulasi menghitung jumlah individu terinfeksi dan sembuh setiap harinya.
 
-Setelah itu, simulasi dilakukan dengan mendefinisikan perubahan posisi dari masing-masing individu secara acak. 
+Proses berakhir setelah tidak ada lagi individu yang terinfeksi.
 
-Secara sederhana, proses infeksi terjadi pada saat individu sehat berada pada posisi yang sama dengan individu yang terinfeksi. 
-
-Selain itu, individu yang sudah sembuh diasumsikan memiliki imun terhadap penyakit/virus sehingga tidak akan terinfeksi untuk kedua kalinya. 
-
-Proses simulasi berakhir setelah tidak ada lagi individu yang terinfeksi.
+![](plot.gif)
